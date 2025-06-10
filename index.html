@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luís de Camões - O Príncipe dos Poetas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="header__title">Luís de Camões</h1>
+            <p class="header__subtitle">O Príncipe dos Poetas</p>
+        </div>
+    </header>
+
+    <nav class="navigation">
+        <div class="container">
+            <div class="nav-buttons">
+                <button class="btn btn--primary nav-btn" data-section="biografia">Biografia</button>
+                <button class="btn btn--primary nav-btn" data-section="lusiadas">Os Lusíadas</button>
+                <button class="btn btn--primary nav-btn" data-section="lirica">Poesia Lírica</button>
+                <button class="btn btn--primary nav-btn" data-section="legado">Legado</button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main">
+        <div class="container">
+            <section class="hero">
+                <h2>Descobra a vida e obra do maior poeta português</h2>
+                <p>Explore a biografia, as obras e o legado imortal de Luís de Camões, cuja genialidade atravessou os séculos.</p>
+            </section>
+
+            <section class="timeline">
+                <h3>Cronologia</h3>
+                <div class="timeline-container">
+                    <!-- Timeline será preenchida via JavaScript -->
+                </div>
+            </section>
+
+            <section class="quotes">
+                <h3>Citações Imortais</h3>
+                <div class="quotes-container">
+                    <!-- Citações serão preenchidas via JavaScript -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Modal Structure -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-content" id="modalContent">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <div class="modal-body" id="modalBody">
+                <!-- Conteúdo será inserido dinamicamente -->
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 - Em celebração dos 500 anos de Luís de Camões</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
