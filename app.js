@@ -21,7 +21,7 @@ const appData = {
     episodios_lusiadas: [
         {
             "nome": "Inês de Castro",
-            "descricao": "O amor trágico que morreu por amar, exemplo do conflito entre razão de estado e sentimento individual."
+            "descricao": "O trágico amor de Inês, que pagou com a vida a sua paixão, ilustra o eterno conflito entre a razão de Estado e o sentimento individual."
         },
         {
             "nome": "Adamastor",
@@ -56,7 +56,7 @@ const modalContent = {
             <p><strong>Lisboa e Coimbra:</strong> Passou a juventude entre Lisboa e Coimbra, onde possivelmente estudou na Universidade, adquirindo vasta cultura clássica.</p>
             
             <h3>Serviço Militar</h3>
-            <p><strong>Ceuta (1550):</strong> Serviu militarmente em Ceuta, onde perdeu o olho direito em combate, característica que o marcaria para sempre.</p>
+            <p><strong>Ceuta (1550):</strong> Serviu militarmente em Ceuta, onde perdeu o olho direito em combate, uma característica que o marcou para sempre.</p>
             
             <h3>Degredo e Aventuras</h3>
             <p><strong>Índia (1553-1570):</strong> Degredado para a Índia, onde passou 17 anos. Durante este período, escreveu grande parte d'Os Lusíadas.</p>
@@ -133,7 +133,7 @@ const modalContent = {
         title: "O Legado Imortal de Camões",
         content: `
             <h3>Reconhecimento Mundial</h3>
-            <p>Camões é reconhecido como um dos quatro grandes épicos universais, ao lado de Homero, Virgílio e Dante, e comparado aos maiores dramaturgos como Shakespeare.</p>
+            <p>Camões é reconhecido como um dos grandes poetas épicos universais, figurando ao lado de Homero, Virgílio e Dante. A sua obra é frequentemente estudada em comparação com outros gigantes da literatura mundial.</p>
             
             <h3>Símbolo Nacional</h3>
             <p><strong>Dia de Portugal:</strong> O 10 de junho, dia da sua morte, é celebrado como Dia de Portugal, de Camões e das Comunidades Portuguesas.</p>
